@@ -1,0 +1,12 @@
+{
+  "name": "pumpfun-momentum-sniper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": { "node": ">=22" }
+}
